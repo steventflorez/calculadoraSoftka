@@ -48,7 +48,7 @@ public class Main {
             default -> print(0);
         }
     }
-
+    //operaciones matematicas
     public static void suma(double number1, double number2){
        print(number1 + number2);
     }
