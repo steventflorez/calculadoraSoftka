@@ -42,6 +42,9 @@ public class Main {
         switch (operator) {
             case 1 -> suma(number1, number2);
             case 2 -> resta(number1, number2);
+            case 3 -> multi(number1, number2);
+            case 4 -> divi(number1, number2);
+            case 5 -> all(number1, number2);
             default -> print(0);
         }
     }
@@ -52,6 +55,21 @@ public class Main {
 
     public static void resta(double number1, double number2){
         print(number1 - number2);
+    }
+
+    public static void multi(double number1, double number2){
+        print(number1 * number2);
+    }
+
+    public static void divi(double number1, double number2){
+        print(number1 / number2);
+    }
+
+    public static void all(double number1, double number2){
+        print(number1 + number2);
+        print(number1 - number2);
+        print(number1 * number2);
+        print(number1 / number2);
     }
 
     public static void print(double result){
